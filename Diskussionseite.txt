@@ -1,0 +1,11 @@
+Was soll das Programm können?
+
+- Der Nutzer soll Eingaben machen können.
+- Dabei soll jede Eingabe die Felder "Datum" (type: datetime.date), "Dauer" (type: datetime.time), "Projekt" (type: eigene Klasse?), "Aufgabe" (type: String), "Dringend" (type: boolean) und "Wichtig" (type: boolean) enthalten
+- Die Daten sollen gespeichert werden
+- Die Daten sollen ausgegeben werden können
+- Die Daten sollen statistisch ausgewertet werden und diese Auswertung ausgegeben werden können
+
+
+Wie soll das Programm stukturiert sein?
+
