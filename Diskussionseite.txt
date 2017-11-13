@@ -8,4 +8,5 @@ Was soll das Programm können?
 
 
 Wie soll das Programm stukturiert sein?
-
+- Wir benötigen je eine Funktion für die Nutzereingabe, das Speichern der Daten, das Ausgeben der Daten und die Auswertung der Daten
+- Benötigen wir eine eigene Klasse für die Projekte? Momentan sieht es doch so aus, als könnte man auch alles in einer Tabelle speichern und gut ist.
