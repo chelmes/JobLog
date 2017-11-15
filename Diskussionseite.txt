@@ -1,12 +1,22 @@
 Was soll das Programm können?
 
 - Der Nutzer soll Eingaben machen können.
-- Dabei soll jede Eingabe die Felder "Datum" (type: datetime.date), "Dauer" (type: datetime.time), "Projekt" (type: eigene Klasse?), "Aufgabe" (type: String), "Dringend" (type: boolean) und "Wichtig" (type: boolean) enthalten
+- Dabei soll jede Eingabe die Felder "Datum" (type: datetime.date), "Dauer" (type: datetime.time),
+  "Projekt" (type: eigene Klasse?), "Aufgabe" (type: String), "Dringend" (type: boolean) und 
+  "Wichtig" (type: boolean) enthalten
+  CH: Ich habe bis auf Projekt und Wichtigkeit alles implementiert. Ich habe ein Startdatum 
+  und ein Enddatum für die Aufgabe eingefügt. Die Dauer ist als Zeit pro Tag gedacht. 
+  Sind dringend und wichtig zwei unterschiedliche Variablen? 
 - Die Daten sollen gespeichert werden
+  CH: Ich würde für die Daten einen pandas DataFrame zum Speichern benutzen.
 - Die Daten sollen ausgegeben werden können
+  CH: Ist noch nicht implementiert
 - Die Daten sollen statistisch ausgewertet werden und diese Auswertung ausgegeben werden können
+  CH: Im demo test.py wird ein Tortendiagramm ausgegeben.
 
 
 Wie soll das Programm stukturiert sein?
-- Wir benötigen je eine Funktion für die Nutzereingabe, das Speichern der Daten, das Ausgeben der Daten und die Auswertung der Daten
-- Benötigen wir eine eigene Klasse für die Projekte? Momentan sieht es doch so aus, als könnte man auch alles in einer Tabelle speichern und gut ist.
+- Wir benötigen je eine Funktion für die Nutzereingabe, das Speichern der Daten,
+  das Ausgeben der Daten und die Auswertung der Daten
+- Benötigen wir eine eigene Klasse für die Projekte? Momentan sieht es doch so aus,
+  als könnte man auch alles in einer Tabelle speichern und gut ist.
